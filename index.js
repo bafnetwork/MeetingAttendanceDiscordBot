@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const keep_alive = require('./keep_alive.js')
 const config = require('./config.js')
 const Discord = require('discord.js');
